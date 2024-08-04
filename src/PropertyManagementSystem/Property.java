@@ -70,4 +70,11 @@ public class Property {
                 ", status='" + status + '\'' +
                 '}';
     }
+
+    public void updateProperty(String address, String type, double size, String status) {
+        this.address = address;
+        this.type = type;
+        this.size = size;
+        this.status = status;
+    }
 }

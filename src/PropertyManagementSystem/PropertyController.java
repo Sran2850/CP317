@@ -9,7 +9,7 @@ import java.util.List;
 public class PropertyController {
 
     @FXML
-    private TextField addressField;
+    private TextField locationField;
     @FXML
     private TextField typeField;
     @FXML
@@ -25,7 +25,7 @@ public class PropertyController {
 
     @FXML
     private void handleSaveButtonAction(ActionEvent event) {
-        String address = addressField.getText();
+        String address = locationField.getText();
         String type = typeField.getText();
         double size = Double.parseDouble(sizeField.getText());
         String status = statusField.getText();
